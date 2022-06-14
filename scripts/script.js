@@ -21,7 +21,7 @@ class Animal {
             this.color = "red";
         }
         return `<div class="card col-lg-3 col-md-4 col-sm-8 p-0 m-0 ">
-  <img src="${this.img}" class="card-img-top  d-md-block d-lg-block d-sm-none " alt="...">
+  <img src="${this.img}" class="card-img-top  d-md-block d-lg-block d-none " alt="...">
   <div class="card-body p-0">
     <h5 class="card-title bg-dark text-light text-center">${this.name}</h5>
     <h6 class="card-title ms-3">Gender:${this.gender}</h6>
@@ -49,7 +49,7 @@ class Dogs extends Animal {
             this.color = "red";
         }
         return `<div class="card col-lg-3 col-md-4 col-sm-8  p-0 m-0">
-  <img src="${this.img}" class="card-img-top d-md-block d-lg-block d-sm-none " alt="...">
+  <img src="${this.img}" class="card-img-top d-md-block d-lg-block d-none " alt="...">
   <div class="card-body p-0">
   <h5 class="card-title bg-dark text-light text-center">${this.name}</h5>
   <h6 class="card-title ms-3">Gender:${this.gender}</h6>
@@ -79,7 +79,7 @@ class Cats extends Animal {
             this.color = "red";
         }
         return `<div class="card col-lg-3 col-md-4 col-sm-8  p-0 m-0  ">
-  <img src="${this.img}" class="card-img-top d-md-block d-lg-block d-sm-none " alt="...">
+  <img src="${this.img}" class="card-img-top d-md-block d-lg-block d-none " alt="...">
   <div class="card-body p-0">
   <h5 class="card-title bg-dark text-light text-center">${this.name}</h5>
   <h6 class="card-title ms-3">Gender:${this.gender}</h6>
