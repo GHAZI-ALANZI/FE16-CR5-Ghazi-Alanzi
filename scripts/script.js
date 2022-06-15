@@ -108,17 +108,6 @@ function petGalliery() {
     document.querySelector(".row").innerHTML = "";
     for (let item of items) {
         document.querySelector(".row").innerHTML += item.display();
-        items.sort(function (a, b) {
-            let x = a.age;
-            let y = b.age;
-            if (x > y) {
-                return 1;
-            }
-            if (x < y) {
-                return -1;
-            }
-            return 0;
-        });
     }
 }
 petGalliery();
